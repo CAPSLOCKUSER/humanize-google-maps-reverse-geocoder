@@ -1,0 +1,35 @@
+{
+  "name": "humanize-google-maps-reverse-geocoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/humanize-google-maps-reverse-geocoder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "./node_modules/.bin/babel src/ -o dist/humanize-google-maps-reverse-geocoder.js",
+    "watch": "./node_modules/.bin/babel src/ -o dist/humanize-google-maps-reverse-geocoder.js --watch",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAPSLOCKUSER/humanize-google-maps-reverse-geocoder.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "geocoder",
+    "humanize"
+  ],
+  "author": "Miklos Megyes <m.miklos05@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CAPSLOCKUSER/humanize-google-maps-reverse-geocoder/issues"
+  },
+  "homepage": "https://github.com/CAPSLOCKUSER/humanize-google-maps-reverse-geocoder#readme",
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
